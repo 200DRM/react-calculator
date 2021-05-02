@@ -3,76 +3,117 @@ import React from 'react'
 const Main = () => {
   return (
     <div
-      className='row justify-content-center'
+      className='row justify-content-center py-5 my-5'
     >
-      <div className='col-md-5'>
+      <div 
+        className='col-md-5 shadow-lg p-3 mb-5 bg-white rounded'
+        style={{
+          backgroundImage: 'linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)'
+        }}
+      >
         <h1>React Calculator</h1>
         <table
           className='table'
         >
           <tr>
-            <input 
-              type='text'
-            />
-            <button>
-              C
-            </button>
+            <td colSpan='3'>
+              <input 
+                type='text'
+              />
+            </td>
+            <td>
+              <button>
+                C
+              </button>
+            </td>
           </tr>
           <tr>
-            <button>
-              1
-            </button>
-            <button>
-              2
-            </button>
-            <button>
-              3
-            </button>
-            <button>
-              /
-            </button>
+            <td>
+              <button>
+                1
+              </button>
+            </td>
+            <td>
+              <button>
+                2
+              </button>
+            </td>
+            <td>
+              <button>
+                3
+              </button>
+            </td>
+            <td>
+              <button>
+                /
+              </button>
+            </td>
           </tr>
           <tr>
-            <button>
-              4
-            </button>
-            <button>
-              5
-            </button>
-            <button>
-              6
-            </button>
-            <button>
-              -
-            </button>
+            <td>
+              <button>
+                4
+              </button>
+            </td>
+            <td>
+              <button>
+                5
+              </button>
+            </td>
+            <td>
+              <button>
+                6
+              </button>
+            </td>
+            <td>
+              <button>
+                -
+              </button>
+            </td>
           </tr>
           <tr>
-            <button>
-              7
-            </button>
-            <button>
-              8
-            </button>
-            <button>
-              9
-            </button>
-            <button>
-              +
-            </button>
+            <td>
+              <button>
+                7
+              </button>
+            </td>
+            <td>
+              <button>
+                8
+              </button>
+            </td>
+            <td>
+              <button>
+                9
+              </button>
+            </td>
+            <td>
+              <button>
+                +
+              </button>
+            </td>
           </tr>
           <tr>
-            <button>
-              .
-            </button>
-            <button>
-              0
-            </button>
-            <button>
-              =
-            </button>
-            <button>
-              *
-            </button>
+            <td>
+              <button>
+                .
+              </button>
+            </td>
+            <td>
+              <button>
+                0
+              </button>
+            </td>
+            <td>
+              <button>
+                =
+              </button>
+            </td>
+            <td>
+              <button>
+                *
+              </button>
+            </td>
           </tr>
         </table>
       </div>
